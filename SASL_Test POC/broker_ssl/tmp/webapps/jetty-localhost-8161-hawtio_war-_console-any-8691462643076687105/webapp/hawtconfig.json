@@ -1,0 +1,26 @@
+{
+  "branding": {
+    "appName": "Red Hat Fuse Management Console",
+    "appLogoUrl": "img/Logo-Red_Hat-Fuse-A-Reverse-RGB.png",
+    "companyLogoUrl": "img/Logo-RedHat-A-Reverse-RGB.png",
+    "css": "",
+    "favicon": ""
+  },
+  "login": {
+    "description": "",
+    "links": []
+  },
+  "about": {
+    "title": "Red Hat Fuse Management Console",
+    "productInfo": [],
+    "additionalInfo": "",
+    "copyright": "",
+    "imgSrc": "img/Logo-RedHat-A-Reverse-RGB.png"
+  },  
+  "disabledRoutes": [
+    "/camel/source",
+    "/diagnostics",
+    "/jvm/discover",
+    "/jvm/local"
+  ]
+}

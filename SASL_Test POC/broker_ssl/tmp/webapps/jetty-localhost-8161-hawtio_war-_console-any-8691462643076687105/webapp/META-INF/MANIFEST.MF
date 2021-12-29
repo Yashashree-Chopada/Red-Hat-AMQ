@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Implementation-Title: hawtio-war
+Implementation-Version: 2.0.0.fuse-sb2-790047-redhat-00001
+Java-Version: 1.8.0_121
+Built-By: PNC-Builder-0.4.0
+Scm-Connection: scm:git:git@github.com:hawtio/hawtio.git/hawtio-war
+Specification-Vendor: JBoss by Red Hat
+Os-Arch: amd64
+Specification-Title: hawtio-war
+Implementation-Vendor-Id: io.hawt
+Java-Vendor: Oracle Corporation
+Os-Name: Linux
+Scm-Url: git@github.com:hawtio/hawtio.git/hawtio-war
+Implementation-Vendor: JBoss by Red Hat
+Os-Version: 3.10.0-1160.15.2.el7.x86_64
+Scm-Revision: cbc5b8e160c902d12f2ac4a95eccb691679f2c98
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_121
+Specification-Version: 2.0
+Implementation-URL: http://hawt.io/hawtio-war/
+

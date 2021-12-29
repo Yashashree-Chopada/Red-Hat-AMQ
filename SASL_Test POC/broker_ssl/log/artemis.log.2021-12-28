@@ -1,0 +1,238 @@
+2021-12-28 16:49:41,309 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-12-28 16:49:41,334 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-12-28 16:49:41,372 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-12-28 16:49:41,438 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-12-28 16:49:41,467 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-12-28 16:49:41,467 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-12-28 16:49:41,468 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-12-28 16:49:41,468 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-12-28 16:49:41,468 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-12-28 16:49:41,469 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-12-28 16:49:41,530 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-12-28 16:49:41,530 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-12-28 16:49:41,911 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-12-28 16:49:41,912 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-12-28 16:49:41,919 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-12-28 16:49:41,919 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-12-28 16:49:42,305 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-12-28 16:49:42,307 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-12-28 16:49:42,315 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-12-28 16:49:42,317 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-12-28 16:49:42,319 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-12-28 16:49:42,321 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-12-28 16:49:42,321 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0.0.0.0, nodeID=9fda6a2b-5f26-11ec-b500-28d0ea5c2452] 
+2021-12-28 16:49:42,680 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Initialized amq-broker-redhat-branding plugin
+2021-12-28 16:49:42,733 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-12-28 16:49:43,152 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-12-28 16:50:24,345 INFO  [org.apache.activemq.artemis.core.server] AMQ221053: Disallowing use of vulnerable protocol 'SSLv2Hello' on acceptor 'artemis'. See http://www.oracle.com/technetwork/topics/security/poodlecve-2014-3566-2339408.html for more details.
+2021-12-28 18:45:11,711 INFO  [org.apache.activemq.artemis.core.server] AMQ221056: Reloading configuration: security
+2021-12-28 18:45:11,712 INFO  [org.apache.activemq.artemis.core.server] AMQ221056: Reloading configuration: address settings
+2021-12-28 18:45:11,712 INFO  [org.apache.activemq.artemis.core.server] AMQ221056: Reloading configuration: diverts
+2021-12-28 18:45:11,713 INFO  [org.apache.activemq.artemis.core.server] AMQ221056: Reloading configuration: addresses
+2021-12-28 18:45:11,713 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-12-28 18:45:11,713 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-12-28 18:45:11,714 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-12-28 18:45:11,714 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-12-28 18:45:39,943 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-12-28 18:45:39,947 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Destroyed amq-broker-redhat-branding plugin
+2021-12-28 18:45:39,956 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [9fda6a2b-5f26-11ec-b500-28d0ea5c2452] stopped, uptime 1 hour 55 minutes
+2021-12-28 18:45:48,631 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-12-28 18:45:48,655 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-12-28 18:45:48,685 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-12-28 18:45:48,744 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-12-28 18:45:48,766 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-12-28 18:45:48,767 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-12-28 18:45:48,767 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-12-28 18:45:48,767 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-12-28 18:45:48,768 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-12-28 18:45:48,768 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-12-28 18:45:48,812 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-12-28 18:45:48,813 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-12-28 18:45:49,168 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-12-28 18:45:49,169 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-12-28 18:45:49,176 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-12-28 18:45:49,176 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-12-28 18:45:49,535 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-12-28 18:45:49,538 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-12-28 18:45:49,544 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-12-28 18:45:49,546 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-12-28 18:45:49,548 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-12-28 18:45:49,550 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-12-28 18:45:49,550 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0.0.0.0, nodeID=9fda6a2b-5f26-11ec-b500-28d0ea5c2452] 
+2021-12-28 18:45:49,812 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Initialized amq-broker-redhat-branding plugin
+2021-12-28 18:45:49,861 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-12-28 18:45:50,284 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-12-28 18:48:34,590 WARN  [io.netty.channel.ChannelInitializer] Failed to initialize a channel. Closing: [id: 0xbca973b2]: java.lang.Exception: Failed to find a store at /home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/Ckeystore.jks
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.validateStoreURL(SSLSupport.java:357) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeystore(SSLSupport.java:305) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagerFactory(SSLSupport.java:333) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagers(SSLSupport.java:321) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.createContext(SSLSupport.java:203) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.DefaultSSLContextFactory.getSSLContext(DefaultSSLContextFactory.java:44) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.loadJdkSslEngine(NettyConnector.java:760) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.access$1700(NettyConnector.java:131) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector$1.initChannel(NettyConnector.java:673) [artemis-core-client-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:938) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:387) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+	at org.apache.activemq.artemis.utils.ActiveMQThreadFactory$1.run(ActiveMQThreadFactory.java:118) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+
+2021-12-28 18:48:34,599 ERROR [org.apache.activemq.artemis.core.client] AMQ214016: Failed to create netty connection: io.netty.channel.StacklessClosedChannelException
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(ChannelPromise)(Unknown Source) [netty-all-4.1.66.Final-redhat-00001.jar:4.1.66.Final-redhat-00001]
+
+2021-12-28 18:49:03,123 INFO  [org.apache.activemq.artemis.core.server] AMQ221053: Disallowing use of vulnerable protocol 'SSLv2Hello' on acceptor 'artemis'. See http://www.oracle.com/technetwork/topics/security/poodlecve-2014-3566-2339408.html for more details.
+2021-12-28 19:17:17,749 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 8f6025f3-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:17:17,751 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 8f6025f3-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:17:17,752 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 8f61d3a4-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:17:17,754 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 8f61d3a4-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:18:56,479 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session acee3805-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:18:56,480 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session acee3805-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:18:56,480 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session acef7086-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:18:56,482 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session acef7086-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:19:13,388 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e7bcd867-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:19:13,388 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e7bcd867-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:19:13,388 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e7be8618-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:19:13,389 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e7be8618-67e4-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:13,509 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 3ea5d69a-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:13,510 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 3ea5d69a-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:13,510 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 3ea7362b-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:13,511 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 3ea7362b-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:25,894 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 5d99450d-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:25,895 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 5d99450d-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:25,896 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 5d9a7d8e-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:22:25,897 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 5d9a7d8e-67e5-11ec-b301-28d0ea5c2452
+2021-12-28 19:23:58,144 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-12-28 19:23:58,146 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Destroyed amq-broker-redhat-branding plugin
+2021-12-28 19:23:58,155 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [9fda6a2b-5f26-11ec-b500-28d0ea5c2452] stopped, uptime 38 minutes
+2021-12-28 19:24:01,535 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-12-28 19:24:01,557 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-12-28 19:24:01,585 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-12-28 19:24:01,632 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-12-28 19:24:01,652 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-12-28 19:24:01,653 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-12-28 19:24:01,653 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-12-28 19:24:01,653 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-12-28 19:24:01,653 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-12-28 19:24:01,654 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-12-28 19:24:01,697 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-12-28 19:24:01,697 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-12-28 19:24:02,029 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-12-28 19:24:02,031 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-12-28 19:24:02,039 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-12-28 19:24:02,039 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-12-28 19:24:02,360 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-12-28 19:24:02,363 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-12-28 19:24:02,374 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-12-28 19:24:02,376 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-12-28 19:24:02,377 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-12-28 19:24:02,379 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-12-28 19:24:02,379 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0.0.0.0, nodeID=9fda6a2b-5f26-11ec-b500-28d0ea5c2452] 
+2021-12-28 19:24:02,599 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Initialized amq-broker-redhat-branding plugin
+2021-12-28 19:24:02,639 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-12-28 19:24:02,993 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-12-28 19:24:06,458 INFO  [org.apache.activemq.artemis.core.server] AMQ221053: Disallowing use of vulnerable protocol 'SSLv2Hello' on acceptor 'artemis'. See http://www.oracle.com/technetwork/topics/security/poodlecve-2014-3566-2339408.html for more details.
+2021-12-28 19:24:16,968 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session a394c3c2-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 19:24:16,969 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session a394c3c2-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 19:24:16,969 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session a3975bd3-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 19:24:16,970 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session a3975bd3-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 20:24:13,889 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session c83a5374-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 20:24:13,889 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session c83a5374-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 20:24:13,889 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session c83c2835-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 20:24:13,890 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session c83c2835-67e5-11ec-9c76-28d0ea5c2452
+2021-12-28 20:24:16,492 WARN  [org.apache.activemq.artemis.core.server] AMQ222208: SSL handshake failed for client from /127.0.0.1:37592: javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown.
+2021-12-28 23:01:38,018 WARN  [org.apache.activemq.artemis.core.server] AMQ222010: Critical IO Error, shutting down the server. file=NULL, message=IO Error while calculating disk usage: java.nio.file.NoSuchFileException: /home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/data/paging
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) [rt.jar:1.8.0_282]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) [rt.jar:1.8.0_282]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) [rt.jar:1.8.0_282]
+	at sun.nio.fs.UnixFileStore.readAttributes(UnixFileStore.java:111) [rt.jar:1.8.0_282]
+	at sun.nio.fs.UnixFileStore.getUsableSpace(UnixFileStore.java:124) [rt.jar:1.8.0_282]
+	at org.apache.activemq.artemis.core.server.files.FileStoreMonitor.tick(FileStoreMonitor.java:104) [artemis-server-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.server.files.FileStoreMonitor.run(FileStoreMonitor.java:93) [artemis-server-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.server.ActiveMQScheduledComponent.runForExecutor(ActiveMQScheduledComponent.java:313) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.core.server.ActiveMQScheduledComponent.lambda$bookedRunForScheduler$2(ActiveMQScheduledComponent.java:320) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:42) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:31) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at org.apache.activemq.artemis.utils.actors.ProcessorBase.executePendingTasks(ProcessorBase.java:65) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_282]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_282]
+	at org.apache.activemq.artemis.utils.ActiveMQThreadFactory$1.run(ActiveMQThreadFactory.java:118) [artemis-commons-2.18.0.redhat-00010.jar:2.18.0.redhat-00010]
+
+2021-12-28 23:01:38,185 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-12-28 23:01:38,187 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Destroyed amq-broker-redhat-branding plugin
+2021-12-28 23:01:38,195 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [9fda6a2b-5f26-11ec-b500-28d0ea5c2452] stopped, uptime 3 hours 37 minutes
+2021-12-28 23:01:59,234 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-12-28 23:01:59,261 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-12-28 23:01:59,291 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-12-28 23:01:59,365 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-12-28 23:01:59,392 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-12-28 23:01:59,393 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-12-28 23:01:59,393 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-12-28 23:01:59,393 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-12-28 23:01:59,393 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-12-28 23:01:59,394 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-12-28 23:01:59,439 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-12-28 23:01:59,440 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-12-28 23:01:59,498 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-12-28 23:01:59,505 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-12-28 23:01:59,556 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-12-28 23:01:59,557 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-12-28 23:01:59,931 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-12-28 23:01:59,934 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-12-28 23:01:59,953 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-12-28 23:01:59,954 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-12-28 23:01:59,955 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-12-28 23:01:59,957 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-12-28 23:01:59,957 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0.0.0.0, nodeID=0f9985ff-6804-11ec-be10-28d0ea5c2452] 
+2021-12-28 23:02:00,188 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Initialized amq-broker-redhat-branding plugin
+2021-12-28 23:02:00,238 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-12-28 23:02:00,682 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-12-28 23:02:07,716 INFO  [org.apache.activemq.artemis.core.server] AMQ221053: Disallowing use of vulnerable protocol 'SSLv2Hello' on acceptor 'artemis'. See http://www.oracle.com/technetwork/topics/security/poodlecve-2014-3566-2339408.html for more details.
+2021-12-28 23:04:08,696 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 1ac4de33-6804-11ec-be10-28d0ea5c2452
+2021-12-28 23:04:08,700 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 1ac4de33-6804-11ec-be10-28d0ea5c2452
+2021-12-28 23:04:08,701 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 1ac68be4-6804-11ec-be10-28d0ea5c2452
+2021-12-28 23:04:08,703 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 1ac68be4-6804-11ec-be10-28d0ea5c2452
+2021-12-28 23:04:13,681 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-12-28 23:04:13,683 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Destroyed amq-broker-redhat-branding plugin
+2021-12-28 23:04:13,690 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0f9985ff-6804-11ec-be10-28d0ea5c2452] stopped, uptime 2 minutes
+2021-12-28 23:04:20,568 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-12-28 23:04:20,592 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-12-28 23:04:20,624 INFO  [org.apache.activemq.artemis.core.server] AMQ221012: Using AIO Journal
+2021-12-28 23:04:20,674 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1,073,741,824
+2021-12-28 23:04:20,698 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-12-28 23:04:20,698 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-12-28 23:04:20,699 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-12-28 23:04:20,699 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-12-28 23:04:20,699 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-12-28 23:04:20,699 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-12-28 23:04:20,747 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-12-28 23:04:20,748 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-12-28 23:04:20,982 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-12-28 23:04:20,983 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-12-28 23:04:20,991 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-12-28 23:04:20,992 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-12-28 23:04:21,338 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-12-28 23:04:21,340 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-12-28 23:04:21,359 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-12-28 23:04:21,361 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-12-28 23:04:21,363 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-12-28 23:04:21,365 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-12-28 23:04:21,365 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0.0.0.0, nodeID=0f9985ff-6804-11ec-be10-28d0ea5c2452] 
+2021-12-28 23:04:21,617 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Initialized amq-broker-redhat-branding plugin
+2021-12-28 23:04:21,663 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-12-28 23:04:22,035 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-12-28 23:04:22,594 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-12-28 23:04:22,602 INFO  [org.apache.amq.hawtio.branding.PluginContextListener] Destroyed amq-broker-redhat-branding plugin
+2021-12-28 23:04:22,620 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.18.0.redhat-00010 [0f9985ff-6804-11ec-be10-28d0ea5c2452] stopped, uptime 2.039 seconds

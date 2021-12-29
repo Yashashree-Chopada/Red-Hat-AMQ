@@ -1,0 +1,23 @@
+JarIndex-Version: 1.0
+
+artemis-plugin-2.18.0.redhat-00010.war
+META-INF
+WEB-INF
+WEB-INF/classes
+WEB-INF/classes/META-INF
+WEB-INF/classes/WEB-INF
+WEB-INF/classes/org
+WEB-INF/classes/org/apache
+WEB-INF/classes/org/apache/activemq
+WEB-INF/classes/org/apache/activemq/hawtio
+WEB-INF/classes/org/apache/activemq/hawtio/plugin
+WEB-INF/lib
+plugin
+plugin/doc
+plugin/html
+plugin/html/tree
+plugin/js
+plugin/js/components
+plugin/js/services
+index.html
+

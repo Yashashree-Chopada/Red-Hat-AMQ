@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-SymbolicName: org.jboss.rh-messaging.amq.amq-broker-redhat-bran
+ ding
+Built-By: PNC-Builder
+Bnd-LastModified: 1631894609313
+Implementation-Vendor-Id: org.jboss.rh-messaging.amq
+Specification-Title: amq-broker-redhat-branding
+Bundle-DocURL: http://www.jboss.org
+Import-Package: javax.management;resolution:=optional,org.slf4j;resolu
+ tion:=optional;version="[1.7,2)",javax.servlet
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Scm-Url: https://github.com/rh-messaging/rh-messaging-pom/amq-broker-p
+ arent/amq-broker-redhat-branding
+Bundle-Name: amq-broker-redhat-branding
+Web-ContextPath: /redhat-branding
+Build-Jdk-Spec: 1.8
+Bundle-Description: This is a shared POM parent for Red Hat Messaging 
+ Maven projects
+Implementation-Title: amq-broker-redhat-branding
+Embed-Directory: WEB-INF/lib
+Implementation-Version: 7.9.0.CR6-redhat-00001
+Java-Version: 1.8.0_292
+Scm-Connection: scm:git:git://github.com/rh-messaging/rh-messaging-pom
+ .git/amq-broker-parent/amq-broker-redhat-branding
+Bundle-ManifestVersion: 2
+Embed-Dependency: *;scope=compile|runtime
+Os-Arch: amd64
+Specification-Vendor: JBoss by Red Hat
+Bundle-Vendor: JBoss by Red Hat
+Java-Vendor: Red Hat, Inc.
+Os-Name: Linux
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: JBoss by Red Hat
+Embedded-Artifacts: WEB-INF/lib/hawtio-plugin-mbean-2.10.0.jar;g="io.h
+ awt";a="hawtio-plugin-mbean";v="2.10.0"
+Os-Version: 4.18.0-240.22.1.el8_3.x86_64
+Bundle-Version: 7.9.0.CR6-redhat-00001
+Scm-Revision: 2e2d20eab947705ac92f671c8d7e00ae294f9616
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib/hawtio-plugin-mbean-2.
+ 10.0.jar
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_292
+Implementation-URL: https://github.com/rh-messaging/rh-messaging-pom/a
+ mq-broker-parent/amq-broker-redhat-branding
+Specification-Version: 7.9.0.CR6-redhat-00001
+Webapp-Context: /redhat-branding
+
