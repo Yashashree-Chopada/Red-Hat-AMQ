@@ -1,0 +1,6 @@
+tcp://localhost:61616?sslEnabled=true&trustStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/truststore.jks&trustStorePassword=password
+
+tcp://localhost:61616?sslEnabled=true&trustStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/truststore.jks&trustStorePassword=password&keyStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/Ckeystore.jks&keyStorePassword=password
+
+
+*wbiggjnnk.jks

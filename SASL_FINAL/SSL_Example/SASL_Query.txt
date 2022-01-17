@@ -1,0 +1,19 @@
+
+# Consumer 
+
+./artemis consumer --destination Test --user admin --password admin --url "tcp://localhost:61616?sslEnabled=true&trustStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/truststore.jks&trustStorePassword=password&keyStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/CKeystore.jks&keyStorePassword=password";
+
+
+Queue stat
+
+./artemis queue stat --url "tcp://localhost:61616?sslEnabled=true&trustStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/truststore.jks&trustStorePassword=password&keyStorePath=/home/ychopada/NotBackedUp/AMQ/amq-broker-7.9.0/bin/broker_ssl/etc/CKeystore.jks&keyStorePassword=password";
+
+Create Truststore
+
+>> keytool -keytool -import -file broker.crt -keystore truststore.jks -storepass password
+
+
+Check Certificate
+
+	1. KeyStore(PrivateKey)-> keytool -list -v -keystore keystore.jks -storepass password ->> Entry type: PrivateKeyEntry
+	2. trustStore (PublicKey)-> keytool -list -v -keystore trustStore.jks -storepass password ->> Entry type: trustedCertEntry
