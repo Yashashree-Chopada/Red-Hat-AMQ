@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.activemq.artemis-plugin
+Built-By: PNC-Builder
+Bnd-LastModified: 1631893872146
+Specification-Title: ActiveMQ Artemis HawtIO Plugin
+ActiveMQ-Version: 2.18.0.redhat-00010(131,130,129,128,127,126,125,124,
+ 123,122)
+Implementation-Vendor-Id: org.apache.activemq
+Bundle-DocURL: https://www.apache.org/
+Import-Package: javax.management;resolution:=optional,org.slf4j;resolu
+ tion:=optional;version="[1.7,2)",javax.servlet;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Scm-Url: https://github.com/apache/activemq-artemis/artemis-hawtio-pom
+ /artemis-plugin
+Bundle-Name: ActiveMQ Artemis HawtIO Plugin
+Web-ContextPath: /artemis-plugin
+Build-Jdk-Spec: 1.8
+Implementation-Title: ActiveMQ Artemis HawtIO Plugin
+Bundle-Description: Artemis plugin module for the HawtIO web console
+Implementation-Version: 2.18.0.redhat-00010
+Embed-Directory: WEB-INF/lib
+Java-Version: 1.8.0_292
+Scm-Connection: scm:git:https://gitbox.apache.org/repos/asf/activemq-a
+ rtemis.git/artemis-hawtio-pom/artemis-plugin
+Specification-Vendor: The Apache Software Foundation
+Os-Arch: amd64
+Bundle-ManifestVersion: 2
+Embed-Dependency: *;scope=compile|runtime
+Java-Vendor: Red Hat, Inc.
+Bundle-Vendor: The Apache Software Foundation
+Os-Name: Linux
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: The Apache Software Foundation
+Os-Version: 4.18.0-240.22.1.el8_3.x86_64
+Embedded-Artifacts: WEB-INF/lib/hawtio-plugin-mbean-2.0.0.fuse-sb2-790
+ 047-redhat-00001.jar;g="io.hawt";a="hawtio-plugin-mbean";v="2.0.0.fus
+ e-sb2-790047-redhat-00001"
+Scm-Revision: 450d447e25dde8ecf506bae32534e07ba7f4c37c
+Bundle-Version: 2.18.0.redhat-00010
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib/hawtio-plugin-mbean-2.
+ 0.0.fuse-sb2-790047-redhat-00001.jar
+Embed-Transitive: true
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 2.18.0.redhat-00010
+Implementation-URL: https://activemq.apache.org/components/artemis/art
+ emis-hawtio-pom/artemis-plugin/
+Build-Jdk: 1.8.0_292
+Webapp-Context: /artemis-plugin
+
