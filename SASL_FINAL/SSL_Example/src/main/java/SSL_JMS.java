@@ -20,10 +20,6 @@ public class SSL_JMS
             //JNDI Lookup -> ConnectionFactory
             JmsConnectionFactory connectionFactory = (JmsConnectionFactory) context.lookup("ConnectionFactory");
 
-            //Part of your code --> For this add dependency in pom.xml <qpid-jms-client>
-           /* Map<String,String> props = new HashMap<String,String>();
-            props.put("qpid.sasl_mechs", "EXTERNAL");
-            connectionFactory.setProperties(props);*/
 
             //Create connection
             Connection jmsConn = connectionFactory.createConnection();
