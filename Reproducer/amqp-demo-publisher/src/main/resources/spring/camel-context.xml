@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:cxf="http://camel.apache.org/schema/cxf"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd http://camel.apache.org/schema/spring https://camel.apache.org/schema/spring/camel-spring.xsd">
+    <import resource="camel-amqp.xml"/>
+    <bean class="nl.vs.fuse.poc.amqp.MessageBean" id="messageBean"/>
+    <camelContext id="camel" trace="{{context.trace:false}}" xmlns="http://camel.apache.org/schema/spring">
+        <dataFormats>
+            <json id="json" library="Jackson"/>
+        </dataFormats>
+        <route id="generateMessages">
+            <from id="startTimer" uri="timer://trigger?fixedRate=true&amp;period={{timer.period:5000}}"/>
+            <to id="createMessage" uri="bean:messageBean?method=createMessage"/>
+            <marshal id="marshalMessage">
+                <custom ref="json"/>
+            </marshal>
+            <log id="logMessage" loggingLevel="INFO" message="Message: ${body}"/>
+            <to id="publishMessage" pattern="InOnly" uri="{{amqp.brokerDest}}"/>
+            <onException id="onJMSException">
+                <exception>javax.jms.JMSException</exception>
+                <redeliveryPolicy logStackTrace="false"
+                    maximumRedeliveries="{{retry.count:5}}" redeliveryDelay="{{retry.delay:250}}"
+                    retryAttemptedLogLevel="WARN" useExponentialBackOff="{{retry.exponentialBackoff:true}}"/>
+                <handled>
+                    <constant>true</constant>
+                </handled>
+                <log id="logException" loggingLevel="ERROR" message="Message delivery failed: ${exception.message}"/>
+            </onException>
+        </route>
+    </camelContext>
+</beans>
