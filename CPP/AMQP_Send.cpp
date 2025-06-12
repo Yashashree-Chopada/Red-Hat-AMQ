@@ -15,15 +15,15 @@
 #include <iostream>
 #include <string>
 
-class queue_browser : public proton::messaging_handler {
+class AMQP_Send : public proton::messaging_handler {
     std::string broker_url_;
     std::string queue_;
     std::string user_;
     std::string password_;
 
 public:
-    queue_browser(const std::string& url, const std::string& queue,
-                  const std::string& user, const std::string& password)
+    AMQP_Send(const std::string& url, const std::string& queue,
+              const std::string& user, const std::string& password)
         : broker_url_(url), queue_(queue), user_(user), password_(password) {}
 
     void on_container_start(proton::container& cont) override {
