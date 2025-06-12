@@ -18,7 +18,7 @@ public class App {
         // Create JMS context
         jmsContext = connectionFactory.createContext("admin", "admin");
 
-        // Create Topic and send a message
+        // Create Topic and send a message to topic
         Topic topic = jmsContext.createTopic("testAddress::client1.testQueue1");
         JMSProducer producer = jmsContext.createProducer();
         producer.send(topic, "testMsg");

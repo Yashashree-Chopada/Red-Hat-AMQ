@@ -1,0 +1,15 @@
+# Created by buildmetadata-maven-plugin 1.7.0 ( SHA: 6f444cae ) 
+build.artifactId=hawtio-war
+build.groupId=io.hawt
+build.java.compiler=HotSpot 64-Bit Tiered Compilers
+build.java.runtime.name=OpenJDK Runtime Environment
+build.java.runtime.version=1.8.0_121-b13
+build.java.vendor=Oracle Corporation
+build.java.vm=OpenJDK 64-Bit Server VM
+build.maven.execution.cmdline=-B -e -V -B -Pall,spring3.2,enable-schemagen,jetty9,ts.all,release,nochecks,sap,jaxws22,deploy,spring-boot-2 -DnpmRegistryURL\=http\://indy.newcastle.svc.cluster.local/api/folo/track/build-ALRP6LNTJYIAS/npm/remote/yarnpkg/ -Dgpg.skip\=true -DnpmDownloadRoot\=http\://download-node-02.eng.bos.redhat.com/rcm-guest/staging/fuse/npm/dist/npm/ -Dproductization -DyarnRegistry\=http\://indy.newcastle.svc.cluster.local/api/folo/track/build-ALRP6LNTJYIAS/npm/remote/yarnpkg/ -Dmaven.test.skip\=true\=true -DyarnDownloadRoot\=http\://download-node-02.eng.bos.redhat.com/rcm-guest/staging/fuse/yarn/dist/ -DnodeDownloadRoot\=http\://download-node-02.eng.bos.redhat.com/rcm-guest/staging/fuse/npm/dist/ -Dyarn.install.args\=--network-concurrency 1 --child-concurrency 1 --no-progress -Dsass-binary-site\=http\://download-node-02.eng.bos.redhat.com/rcm-guest/staging/fuse/npm/node-sass deploy
+build.maven.version=3.5.2
+build.scmRevision.date=28.07.2021
+build.scmRevision.id=cbc5b8e160c902d12f2ac4a95eccb691679f2c98
+build.scmRevision.url=scm\:git\:git@github.com\:hawtio/hawtio.git/hawtio-war
+build.version=2.0.0.fuse-sb2-790047-redhat-00001
+build.version.full=2.0.0.fuse-sb2-790047-redhat-00001rcbc5b8e160c902d12f2ac4a95eccb691679f2c98
